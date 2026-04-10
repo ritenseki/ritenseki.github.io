@@ -1,0 +1,22 @@
+baseURL = 'https://ritenseki.github.io/'
+locale = 'zh-cn'
+title = 'Works of ritenseki'
+theme =  "mytheme"
+
+[params]
+    description = "Projects, essays and photos from ritenseki."
+
+[[menus.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 1
+
+[[menus.main]]
+    name = "Essays"
+    url = "/essays/"
+    weight = 2
+
+[[menus.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 3
