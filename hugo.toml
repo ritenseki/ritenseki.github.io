@@ -1,4 +1,5 @@
 baseURL = 'https://ritenseki.github.io/'
+publishDir = 'docs'
 locale = 'zh-cn'
 title = 'Works of ritenseki'
 theme =  "mytheme"
