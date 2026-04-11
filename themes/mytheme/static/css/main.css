@@ -176,3 +176,23 @@ hr {
   font-size: 0.8rem;
   color: var(--muted);
 }
+
+/* Claude note */
+.claude-note {
+  margin-top: 2.5rem;
+}
+
+.claude-note-body p {
+  color: #E07B54;
+  margin-bottom: 0.75rem;
+}
+
+.claude-sig {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: #E07B54;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}

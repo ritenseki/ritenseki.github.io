@@ -1,0 +1,16 @@
+# Hugo build artifacts
+public/
+resources/
+.hugo_build.lock
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

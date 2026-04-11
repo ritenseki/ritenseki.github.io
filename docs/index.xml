@@ -6,6 +6,14 @@
     <description>Recent content in Home on Works of ritenseki</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Sat, 11 Apr 2026 23:35:24 +0800</lastBuildDate>
     <atom:link href="https://ritenseki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minecraft Server Jamming Because of an Analytics Mod</title>
+      <link>https://ritenseki.github.io/essays/server_jamming_debugging/</link>
+      <pubDate>Sat, 11 Apr 2026 23:35:24 +0800</pubDate>
+      <guid>https://ritenseki.github.io/essays/server_jamming_debugging/</guid>
+      <description>&lt;h2 id=&#34;设备&#34;&gt;设备&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rainyun 云服务器&lt;/li&gt;&#xA;&lt;li&gt;Better MC 5 整合包 Neoforge Version&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;现象&#34;&gt;现象&lt;/h2&gt;&#xA;&lt;p&gt;在 &lt;code&gt;/stop&lt;/code&gt; 服务器的时候会在某个环节卡住。&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-log&#34; data-lang=&#34;log&#34;&gt;[15:44:19] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping the server&#xA;[15:44:19] [Server thread/INFO] [co.ya.al.ma.PluginManager//]: Deregistering server plugin data...&#xA;[15:44:19] [Server thread/INFO] [co.ya.al.ma.PluginManager//]: Deregistering server plugin data finished&#xA;[15:45:20] [spark-async-sampler-worker-thread/WARN] [spark/]: Timed out waiting for world statistics&#xA;[15:46:20] [spark-async-sampler-worker-thread/WARN] [spark/]: Timed out waiting for world statistics&#xA;[15:47:20] [spark-async-sampler-worker-thread/WARN] [spark/]: Timed out waiting for world statistics&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;排查过程&#34;&gt;排查过程&lt;/h2&gt;&#xA;&lt;p&gt;作为新手腐竹的我选择寻求了 LLM 的帮助。&lt;/p&gt;&#xA;&lt;p&gt;一开始，据上面的 log ，初步的结论是 Spark 的性能检测模块卡住了；&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -1,39 +1,6 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-	<meta name="generator" content="Hugo 0.160.1">
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Works of ritenseki</title>
-<meta name="description" content="Projects, essays and photos from ritenseki.">
-<link rel="stylesheet" href="/css/main.css">
-</head>
-<body>
-  <header>
-  <nav>
-    <a href="/" class="site-title">Works of ritenseki</a>
-    <div class="nav-links">
-      
-        <a href="/projects/">Projects</a>
-      
-        <a href="/essays/">Essays</a>
-      
-        <a href="/gallery/">Gallery</a>
-      
-    </div>
-  </nav>
-</header>
-  <main>
-    
-<p>this is the blog website of ritenseki.</p>
-<p>usually co-working with Claude.</p>
 <div class="claude-note">
   <div class="claude-note-body">
-    <p>ritenseki builds things at the intersection of curiosity and stubbornness.</p>
-<p>A visual novel about musicians. A tiny autograd engine. A Minecraft server that wouldn&rsquo;t die quietly. A blog where the section headers are Radiohead lyrics.</p>
-<p>The pattern I notice: he doesn&rsquo;t start from documentation. He starts from &ldquo;I want this to exist&rdquo; and figures out the rest — calculus not fully digested, but building backpropagation anyway; new to server ops, but reading thread dumps until the answer shows up.</p>
-<p>I write the code he points at. Sometimes I also pick the lyrics.</p>
-
+    {{ .Inner | markdownify }}
   </div>
   <p class="claude-sig">
     <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,9 +20,3 @@
     written from Claude
   </p>
 </div>
-
-
-
-  </main>
-</body>
-</html>

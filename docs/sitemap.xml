@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ritenseki.github.io/categories/</loc>
-  </url><url>
     <loc>https://ritenseki.github.io/essays/</loc>
-  </url><url>
-    <loc>https://ritenseki.github.io/gallery/</loc>
+    <lastmod>2026-04-11T23:35:24+08:00</lastmod>
   </url><url>
     <loc>https://ritenseki.github.io/</loc>
+    <lastmod>2026-04-11T23:35:24+08:00</lastmod>
+  </url><url>
+    <loc>https://ritenseki.github.io/essays/server_jamming_debugging/</loc>
+    <lastmod>2026-04-11T23:35:24+08:00</lastmod>
+  </url><url>
+    <loc>https://ritenseki.github.io/categories/</loc>
+  </url><url>
+    <loc>https://ritenseki.github.io/gallery/</loc>
   </url><url>
     <loc>https://ritenseki.github.io/projects/</loc>
   </url><url>
