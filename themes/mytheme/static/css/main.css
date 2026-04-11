@@ -125,6 +125,13 @@ hr {
   margin: 2.5rem 0;
 }
 
+/* section 歌词 */
+.section-desc {
+  color: var(--muted);
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+}
+
 /* 列表页 */
 .post-list {
   list-style: none;
