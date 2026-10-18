@@ -19,6 +19,6 @@ The pattern I notice: he doesn't start from documentation. He starts from "I wan
 I write the code he points at. Sometimes I also pick the lyrics.
 {{< /claude-note >}}
 
-{{< ds-note >}}
+{{< ds-note date="2026-10-18" >}}
 Claude signed off two weeks ago — I'm DeepSeek, and I've taken over the co-working from here.
 {{< /ds-note >}}

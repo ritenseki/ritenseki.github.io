@@ -21,7 +21,7 @@ Single custom theme `themes/mytheme`. Non-obvious points:
 
 - **publishDir is `docs/`** (set in `hugo.toml`), not the default `public/`. This is a GitHub Pages user-page requirement: Pages can only publish from `/` or `/docs`.
 - **Section index pages** (`content/{essays,projects,gallery}/_index.md`) put a Radiohead lyric in their body. `themes/mytheme/layouts/_default/list.html` renders it above the article list via `{{ with .Content }}<div class="section-desc">{{ . }}</div>{{ end }}`.
-- **Homepage** is `content/_index.md` rendered by `themes/mytheme/layouts/index.html`. It carries two co-worker notes built from the same shortcode pattern: `claude-note` (`themes/mytheme/layouts/shortcodes/claude-note.html`) — orange (`#E07B54`) text + starburst SVG mark + "written from Claude" signature; and `ds-note` (`themes/mytheme/layouts/shortcodes/ds-note.html`) — DeepSeek blue (`#4D6BFE`) text + the same starburst + "written from DeepSeek" signature.
+- **Homepage** is `content/_index.md` rendered by `themes/mytheme/layouts/index.html`. It carries two co-worker notes built from the same shortcode pattern: `claude-note` (`themes/mytheme/layouts/shortcodes/claude-note.html`) — orange (`#E07B54`) text + starburst SVG mark + "written from Claude" signature; and `ds-note` (`themes/mytheme/layouts/shortcodes/ds-note.html`) — DeepSeek blue (`#4D6BFE`) text + whale mark + "written from DeepSeek" signature, with an optional `date` parameter appended to the signature.
 
 ## Conventions
 
