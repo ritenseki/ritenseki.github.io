@@ -202,8 +202,11 @@ hr {
   margin-top: 2.5rem;
 }
 
-.ds-note-body p {
+.ds-note-body {
   color: #4D6BFE;
+}
+
+.ds-note-body p {
   margin-bottom: 0.75rem;
 }
 

@@ -4,7 +4,10 @@ title: "Home"
 
 this is the blog website of ritenseki.
 
-usually co-working with Claude.
+Once co-worked with Claude.
+Now with Gemini and DeepSeek.
+
+[mail me](mailto:ritenseki@gmail.com)
 
 {{< claude-note >}}
 ritenseki builds things at the intersection of curiosity and stubbornness.
