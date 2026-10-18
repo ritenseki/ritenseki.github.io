@@ -196,3 +196,23 @@ hr {
   margin-top: 1rem;
   margin-bottom: 0;
 }
+
+/* DeepSeek note */
+.ds-note {
+  margin-top: 2.5rem;
+}
+
+.ds-note-body p {
+  color: #4D6BFE;
+  margin-bottom: 0.75rem;
+}
+
+.ds-sig {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: #4D6BFE;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}

@@ -93,30 +93,30 @@ at sun.nio.ch.SocketDispatcher.read0(java.base@25.0.2/Native Method)
 <h3 id="阻塞点">阻塞点</h3>
 <p>关键特征：</p>
 <table>
-  <thead>
-      <tr>
-          <th>特征</th>
-          <th>说明</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><code>RUNNABLE</code> 状态</td>
-          <td>线程没在 sleep，是真的在&quot;跑&quot;</td>
-      </tr>
-      <tr>
-          <td><code>SocketDispatcher.read0</code></td>
-          <td>卡在底层 socket 读操作</td>
-      </tr>
-      <tr>
-          <td><code>HttpsURLConnection.getResponseCode</code></td>
-          <td>正在等 HTTP 响应</td>
-      </tr>
-      <tr>
-          <td><code>elapsed=95.80s</code></td>
-          <td>这个线程已经跑了 95 秒，说明 stop 后一直卡在这里</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>特征</th>
+					<th>说明</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>RUNNABLE</code> 状态</td>
+					<td>线程没在 sleep，是真的在&quot;跑&quot;</td>
+			</tr>
+			<tr>
+					<td><code>SocketDispatcher.read0</code></td>
+					<td>卡在底层 socket 读操作</td>
+			</tr>
+			<tr>
+					<td><code>HttpsURLConnection.getResponseCode</code></td>
+					<td>正在等 HTTP 响应</td>
+			</tr>
+			<tr>
+					<td><code>elapsed=95.80s</code></td>
+					<td>这个线程已经跑了 95 秒，说明 stop 后一直卡在这里</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="对比正常线程--问题线程">对比正常线程 &amp; 问题线程</h3>
 <h4 id="正常">正常</h4>
